@@ -1,0 +1,26 @@
+{
+  "name": "traveltore",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "dotenv-webpack": "^8.0.1",
+    "gh-pages": "^5.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.73.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "@cubejs-client/core": "^0.31.0",
+    "chart.js": "^4.2.1"
+  }
+}
